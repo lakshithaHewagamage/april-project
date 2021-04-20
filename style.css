@@ -1,19 +1,112 @@
-header{
-    text-align: center;
-    color: rgba(7, 6, 5,.6);
+@media (min-width:992px){
+    
+    header{
+        text-align: center;
+        color: rgba(7, 6, 5,.6);
+    }
+    section{
+        width: 30%;
+        float: right;
+        margin-right: 2%;
+        }
+    p{
+        border: solid 3px rgb(22, 22, 24);
+        padding:5%;
+        background-color: rgb(76, 57, 94,.5);
+        padding-top: 25%;
+        height: 150px;
+    }
+    section h3{
+        width: 10%;
+        border: solid 2px rgb(19, 18, 18);
+        float: right;
+        background-color: antiquewhite;
+        position: absolute;
+        float: right;
+        padding: 1%;
+        margin-left:17% ;
+        text-align: center;
+        font-weight: 1500;
+    }
+    #first{
+        background-color: brown;
+    }
+    #second{
+        background-color: rgb(166, 207, 54);
+    }
 }
-section{
-    width: 30%;
-    float: right;
-    border: solid 1px blue;
-    margin:1% ;
-    padding-top: 2%;
+@media (min-width:768px) and (max-width:991px){
+    header{
+        text-align: center;
+        color: rgba(7, 6, 5,.6);
+    }
+    section{
+        width: 45%;
+        float: right;
+        margin-right: 2%;
+    }
+    #sushi{
+        width: 92%;
+    }
+    p{
+        border: solid 3px rgb(22, 22, 24);
+        padding:5%;
+        background-color: rgb(76, 57, 94,.5);
+        padding-top: 12%;
+    }
+    section h3{
+        width: 15%;
+        border: solid 2px rgb(19, 18, 18);
+        float: right;
+        background-color: antiquewhite;
+        position: absolute;
+        float: right;
+        padding: 1%;
+        margin-left:27% ;
+        text-align: center;
+        font-weight: 1500;
+    }
+    #first{
+        background-color: brown;
+    }
+    #second{
+        background-color: rgb(166, 207, 54);
+    }
+    #third{
+        margin-left: 73%;
+    }
 }
-h3{
-    position: absolute;
-    float: right;
-    padding: 1%;
-}
-p{
-    padding: 2%;
+@media  (max-width:767px){
+    header{
+        text-align: center;
+        color: rgba(7, 6, 5,.6);
+    }
+    section{
+        width: 96%;
+    }
+    p{
+        border: solid 3px rgb(22, 22, 24);
+        padding:5%;
+        background-color: rgb(76, 57, 94,.5);
+        padding-top: 15%;
+    }
+    section h3{
+        width: 15%;
+        border: solid 2px rgb(19, 18, 18);
+        background-color: antiquewhite;
+        position: absolute;
+        padding: 1%;
+        margin-left:63% ;
+        text-align: center;
+        font-weight: 1500;
+    }
+    #first{
+        background-color: brown;
+    }
+    #second{
+        background-color: rgb(166, 207, 54);
+    }
+
+        
+    }
 }
