@@ -83,20 +83,22 @@
     }
     section{
         width: 96%;
+        margin-left: 2%;
     }
     p{
-        border: solid 3px rgb(22, 22, 24);
+        border: solid 3px rgb(35, 35, 49);
         padding:5%;
         background-color: rgb(76, 57, 94,.5);
         padding-top: 15%;
     }
     section h3{
-        width: 15%;
+        width: 10%;
         border: solid 2px rgb(19, 18, 18);
         background-color: antiquewhite;
         position: absolute;
         padding: 1%;
-        margin-left:63% ;
+        margin-top: 0%;
+        margin-left:81% ;
         text-align: center;
         font-weight: 1500;
     }
